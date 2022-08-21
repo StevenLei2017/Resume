@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>985本4年经验-雷坤</title>
+        <style type="text/css">
+            #root {
+                position: relative;
+                width: 100%;
+            }
+            #page {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50px;
+                margin: auto;
+                padding: 0 50px;
+                width: 1150px;
+            }
+            .title {
+                font-size: 26px;
+                text-transform: uppercase;
+                margin-top: 30px;
+            }
+            .line {
+                border-top: solid 2px black;
+                padding: 2px 0;
+            }
+            .content {
+                font-size: 18px;
+                line-height: 26px;
+            }
+            #head {
+                display: grid;
+                grid-template-columns: 900px 155px;
+                gap: 45px;
+            }
+            #head_right img {
+                width: 180px;
+                height: 260px;
+            }
+            #info_row1 {
+                display: grid;
+                grid-template-columns: 300px 300px 300px;
+            }
+            #info_row2 {
+                display: grid;
+                grid-template-columns: 300px 300px;
+            }
+            #info_row3 {
+                display: grid;
+                grid-template-columns: 300px 300px;
+            }
+            #intention_row1 {
+                display: grid;
+                grid-template-columns: 300px 300px;
+            }
+            #education_row1 {
+                display: grid;
+                grid-template-columns: 950px 150px;
+            }
+            .work_job {
+                display: grid;
+                grid-template-columns: 500px 450px 150px;
+                margin-top: 12px;
+                align-items: center;
+            }
+            .work_job svg {
+                display: inline-block;
+                position: relative;
+                top: 3px;
+                margin: 0 2px;
+                padding: 1px;
+                width: 18px;
+                height: 18px;
+            }
+            #ebay_icon {
+                display: inline-block;
+                position: relative;
+                top: 3px;
+                margin: 0 2px;
+                padding: 1px;
+                width: 40px;
+                height: 18px;
+            }
+            #job1 {
+                margin-top: 0;
+            }
+            .company {
+                white-space: nowrap;
+            }
+            .bold {
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div id="page">
+                <div id="head">
+                    <div id="head_left">
+                        <div class="title">Personal Information</div>
+                        <div class="line"></div>
+                        <div class="content">
+                            <div id="info_row1">
+                                <div>Name: Kun Lei</div>
+                                <div>Gender: Male</div>
+                                <div>Hometown: Hunan Province, China</div>
+                            </div>
+                            <div id="info_row2">
+                                <div>Age: 27</div>
+                                <div>Height: 175cm</div>
+                            </div>
+                            <div id="info_row2">
+                                <div>Phone Number: +86 18150382334</div>
+                                <div>Email: stevenlei617@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="title">Career Intention</div>
+                        <div class="line"></div>
+                        <div class="content">
+                            <div id="intention_row1">
+                                <div>Job Title: Software Engineer</div>
+                                <div>Arrival Time: Less than a month</div>
+                            </div>
+                            <div class="text">Work Location: Shanghai Or Others(Obey the arrangement)</div>
+                        </div>
+                    </div>
+                    <div id="head_right">
+                        <img src="./head.jpg" />
+                    </div>
+                </div>
+                <div id="education">
+                    <div class="title">Education</div>
+                    <div class="line"></div>
+                    <div class="content">
+                        <div id="education_row1">
+                            <div>Bachelor degree in Software Engineering from Xiamen University</div>
+                            <div class="timeRange">2014.8 - 2018.7</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="work">
+                    <div class="title">Work Experience</div>
+                    <div class="line"></div>
+                    <div class="content">
+                        <div class="work_job" id="job1">
+                            <div>
+                                Company:
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+                                    <path fill="#f3f3f3" d="M0 0h23v23H0z" />
+                                    <path fill="#f35325" d="M1 1h10v10H1z" />
+                                    <path fill="#81bc06" d="M12 1h10v10H12z" />
+                                    <path fill="#05a6f0" d="M1 12h10v10H1z" />
+                                    <path fill="#ffba08" d="M12 12h10v10H12z" />
+                                </svg>
+                                Microsoft
+                            </div>
+                            <div>Title: Software Enginner 2</div>
+                            <div class="timeRange">2022.9 - Now</div>
+                        </div>
+                        <div class="work_job">
+                            <div>
+                                Company: 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+                                    <path fill="#f3f3f3" d="M0 0h23v23H0z" />
+                                    <path fill="#f35325" d="M1 1h10v10H1z" />
+                                    <path fill="#81bc06" d="M12 1h10v10H12z" />
+                                    <path fill="#05a6f0" d="M1 12h10v10H1z" />
+                                    <path fill="#ffba08" d="M12 12h10v10H12z" />
+                                </svg>
+                                Microsoft
+                            </div>
+                            <div>Title: Software Enginner</div>
+                            <div class="timeRange">2021.2 - 2022.8</div>
+                        </div>
+                        <div>Duty: UX owner of Money Card UX in Windows10 Flyout, which is shown to <span class="bold">400 Millions users</span></div>
+                        <div>Growth: The Navigation Clicked User <span class="bold">grew 4X, from 80K -> 320K</span>, still improving</div>
+                        <div>
+                            Personal Career: <span class="bold">140% Performance</span> in 2022 Annual Review,
+                            <span class="bold">Got Promotion and +30% salary increase</span>
+                        </div>
+                        <div class="work_job">
+                            <div>Company: <img id="ebay_icon" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg"/>eBay China Center of Excellence</div>
+                            <div>Title: Software Enginner</div>
+                            <div class="timeRange">2020.5 - 2022.1</div>
+                        </div>
+                        <div>Duty: UX owner of eBay Performance Marketing Portal, the dashboard to query user data of Ads Conversion Ratio</div>
+                        <div>Personal Career: Good reviews from Manager and Mentor, <span class="bold">Got extra 30% month salary as bonus</span></div>
+                        <div class="work_job">
+                            <div class="company">Company: Shanghai Zongyi Automation Control equipment Co., Ltd</div>
+                            <div></div>
+                            <div class="timeRange">2018.11 - 2020.4</div>
+                        </div>
+                        <div>Duty: Development Team Leader of 5 members, research on image algorithm and serve it by python back-end Flask</div>
+                        <div>Personal Career: <span class="bold">Got 20% salary increase</span> after 7 months on the job</div>
+                    </div>
+                </div>
+                <div id="projects">
+                    <div class="title">Projects</div>
+                    <div class="line"></div>
+                    <div class="content"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
